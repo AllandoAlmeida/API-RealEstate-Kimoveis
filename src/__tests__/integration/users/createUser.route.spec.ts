@@ -1,6 +1,6 @@
 import supertest from 'supertest';
 import { Any, DataSource } from 'typeorm';
-import app from '../../../app';
+import { app } from "../../../app";
 import { AppDataSource } from '../../../data-source';
 import { User } from '../../../entities';
 import { createUserRouteMock } from '../../mocks';
